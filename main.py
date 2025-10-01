@@ -382,9 +382,9 @@ def main():
                 return resultado
             
             deltaotm, Sotm, Totm, kotm, taxadecusto  = resultado()
-            st.write("Optimal {} result: {:.2f}" .format(chr(948), deltaotm))
-            st.write("Optimal S result: {:.2f}" .format(Sotm))
-            st.write("Optimal T result: {:.2f}" .format(Totm))
+            st.write("Optimal {} result: {:.3f}" .format(chr(948), deltaotm))
+            st.write("Optimal S result: {:.3f}" .format(Sotm))
+            st.write("Optimal T result: {:.3f}" .format(Totm))
             st.write("Optimal K result: {}" .format(kotm))
             st.write("Optimal cost-rate result: {:.3f}" .format(taxadecusto))
     
