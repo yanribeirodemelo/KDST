@@ -8,7 +8,9 @@ import streamlit as st
 import numpy as np
 import sys
 from streamlit import cli as stcli
+from scipy.integrate import dblquad
 from scipy.integrate import quad
+from scipy.integrate import tplquad
 from PIL import Image
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
