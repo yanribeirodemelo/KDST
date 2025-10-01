@@ -32,7 +32,7 @@ def main():
     
     st.title('A general inspection and opportunistic replacement policy for one-component systems of variable quality')
 
-    menu = ["Simulador", "Otimizador", "Grupo de Pesquisa"]
+    menu = ["Simulador", "Otimizador", "Informações", "Grupo de Pesquisa"]
     
     choice = st.sidebar.selectbox("Selecione aqui", menu)
     
@@ -433,9 +433,9 @@ a.j.s.rodrigues@random.org.br
 y.r.melo@random.org.br 
 ''' .format(chr(948), chr(948), chr(948), chr(948), chr(948)))
 
-    if choice == menu[2]:
+    if choice == menu[3]:
         
-        st.header(menu[2])
+        st.header(menu[3])
         
         st.write('''The Research Group on Risk and Decision Analysis in Operations and Maintenance was created in 2012 
                  in order to bring together different researchers who work in the following areas: risk, maintenance a
