@@ -433,9 +433,9 @@ a.j.s.rodrigues@random.org.br
 y.r.melo@random.org.br 
 ''' .format(chr(948), chr(948), chr(948), chr(948), chr(948)))
 
-    if choice == menu[3]:
+    if choice == menu[2]:
         
-        st.header(menu[3])
+        st.header(menu[2])
         
         st.write('''The Research Group on Risk and Decision Analysis in Operations and Maintenance was created in 2012 
                  in order to bring together different researchers who work in the following areas: risk, maintenance a
