@@ -32,8 +32,8 @@ def main():
     
     st.title('A general inspection and opportunistic replacement policy for one-component systems of variable quality')
 
-    menu = ["Analytical", "Optimizer", "Informations", "Research Group"]
-    
+    menu = ["Analytical", "Optimizer", "Information", "Research Group"]
+
     choice = st.sidebar.selectbox("Selecione aqui", menu)
     
     if choice == menu[0]:
