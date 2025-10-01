@@ -32,7 +32,7 @@ def main():
     
     st.title('A general inspection and opportunistic replacement policy for one-component systems of variable quality')
 
-    menu = ["Simulador", "Otimizador", "Informações", "Grupo de Pesquisa"]
+    menu = ["Analytical", "Optimizer", "Informations", "Research Group"]
     
     choice = st.sidebar.selectbox("Selecione aqui", menu)
     
